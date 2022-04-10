@@ -1,0 +1,42 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: $color-primary;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 0.3rem 0.5rem 0.1rem rgba(0, 0, 0, 0.2);
+
+  &__left {
+  }
+
+  &__center {
+    width: 100%;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 1.6rem;
+  }
+
+  &__right {
+    margin-left: auto;
+  }
+
+  &__profile {
+    &-btn {
+      border-radius: 50%;
+      overflow: hidden;
+      outline: none;
+      border: none;
+    }
+    &-photo {
+      height: 2.5rem;
+      width: 2.5rem;
+      border-radius: 50%;
+    }
+  }
+}

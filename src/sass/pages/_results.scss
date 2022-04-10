@@ -1,0 +1,28 @@
+.results {
+  &__correct {
+    text-align: center;
+    font-size: 5rem;
+    color: $color-primary;
+    margin: 2rem 0;
+  }
+
+  &__message {
+    &-box {
+      text-align: center;
+    }
+    font-size: 3rem;
+    color: white;
+    display: inline-block;
+    border-radius: 1rem;
+
+    &--pass {
+      background-color: green;
+      padding: 1rem;
+    }
+
+    &--fail {
+      background-color: red;
+      padding: 1rem;
+    }
+  }
+}

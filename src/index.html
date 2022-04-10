@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="topbar__left">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="topbar__center">
+        <h1 class="topbar__title">Quiz</h1>
+      </div>
+      <div class="topbar__right">
+        <div class="topbar__profile">
+          <img
+            src="/public/assets/default.jpg"
+            alt="User profile photo"
+            class="topbar__profile-photo"
+          />
+        </div>
+      </div>
+    </div>
+
+    <main class="main">
+      <div class="question">
+        <p class="question__status">Pergunta 01/50</p>
+        <h2 class="question__title">Indique o significado do sinal abaixo.</h2>
+
+        <div class="question__image-box">
+          <img
+            src="/public/assets/traffic-signals/signal-1.png"
+            alt="Signal 50"
+            class="question__image"
+          />
+        </div>
+
+        <ul class="question__answers">
+          <li class="question__answers-item">
+            <div class="question__answers-circle"></div>
+            <span class="question__answers-text"> Velocidade minima 50 </span>
+          </li>
+          <li class="question__answers-item">
+            <div class="question__answers-circle"></div>
+            <span class="question__answers-text"> Velocidade maxima 50 </span>
+          </li>
+          <li class="question__answers-item">
+            <div class="question__answers-circle"></div>
+            <span class="question__answers-text"> Apenas 50 carros </span>
+          </li>
+          <li class="question__answers-item">
+            <div class="question__answers-circle"></div>
+            <span class="question__answers-text"> Voce tem 50 anos </span>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <div class="bottomBar">
+        <ul class="bottomBar__list">
+          <li class="bottomBar__item">
+            <a href="#" class="bottomBar__link">
+              <i class="fa-solid fa-house"></i>
+            </a>
+          </li>
+          <li class="bottomBar__item">
+            <a href="#" class="bottomBar__link">
+              <i class="fa-solid fa-key"></i>
+            </a>
+          </li>
+          <li class="bottomBar__item">
+            <a href="#" class="bottomBar__link">
+              <i class="fa-solid fa-chart-column"></i>
+            </a>
+          </li>
+          <li class="bottomBar__item">
+            <a href="#" class="bottomBar__link">
+              <i class="fa-solid fa-user"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
